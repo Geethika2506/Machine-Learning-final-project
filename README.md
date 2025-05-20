@@ -17,7 +17,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
-#Data Source:
+# Data Source:
 - Dataset: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data)  
 - Size: 284,807 transactions  
 - Features: 30 numerical features + 1 target (`Class`)
@@ -31,7 +31,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
- #Preprocessing Steps
+ # Preprocessing Steps
 1. **Exploratory Data Analysis (EDA)** – Class distribution, amount trends, and time-based behavior.
 2. **Feature Engineering** – Created `Hour` and `TimeBin` from `Time`, log-transformed `Amount`.
 3. **One-Hot Encoding** – Applied to categorical features (`TimeBin`).
@@ -40,7 +40,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
-#Models Tested
+# Models Tested
 - Baselines: Dummy Classifier, Logistic Regression  
 - Classical ML:  
   - Random Forest (with and without tuning)  
@@ -52,7 +52,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
-#Model Performance Summary
+# Model Performance Summary
 
 | Model             | Recall | F1-Score | AUC-ROC |
 |------------------|--------|----------|---------|
@@ -68,7 +68,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
- #Evaluation Strategy
+ # Evaluation Strategy
 - Metrics used:
   - **Recall**: Prioritized to catch most fraudulent transactions.
   - **AUC-ROC**: Assesses model's ability to distinguish between classes.
@@ -77,7 +77,7 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
-#Team Collaboration
+# Team Collaboration
 - Work was divided into:
   - Data Cleaning and EDA
   - Model Design and Evaluation
@@ -86,17 +86,17 @@ We experimented with multiple models, preprocessing techniques, and evaluation m
 
 ---
 
-Repository
+# Repository
 GitHub Link: [`Geethika2506/Machine-Learning-final-project`](https://github.com/Geethika2506/Machine-Learning-final-project)
 
 ---
 
-#Future Work
+# Future Work
 - Deploying the model into a real-time fraud detection system.
 - Exploring ensemble learning and time-series models.
 - Integrating user behavior and geographic data.
 
 ---
 
- #Date
+ # Date
 April 28, 2025
